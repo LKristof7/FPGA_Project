@@ -132,15 +132,3 @@ UART adatküldés
 Még nem igazolt
 
 Fontos: az ADT7420 sikeresnek látszó működését egyelőre a vezérlő LED-jelzése támasztja alá; a tényleges mért hőmérsékleti értéket és az I²C tranzakciót még szimulációval vagy logikai analizátorral is ellenőrizni kell.
-
-## 7. Mit mondhatsz holnap a tanárnak?
-
-Ezt akár szó szerint is elmondhatod:
-
-> A Nexys A7 FPGA-alapú mérőrendszer hardveres alapját sikerült beüzemelni, a bitstream előállítása és az FPGA programozása működik. A projektben külön modul felel a hőmérséklet-érzékelő I²C kommunikációjáért, a gyorsulásmérő SPI kommunikációjáért, az adatok formázásáért és az UART továbbításért.
->
-> A hőmérséklet-érzékelő kommunikációs modulját átdolgoztam, mert a korábbi változat nem fejezte be megbízhatóan a mérési folyamatot. Az új változattal a vezérlő már érzékeli a hőmérsékletolvasás befejezését.
->
-> Jelenleg a következő lépés a gyorsulásmérő kommunikációjának ellenőrzése, majd az adatformázás és az UART adatküldés tesztelése. A végső cél a két szenzor adatainak folyamatos megjelenítése számítógépen.
-
-Holnap innen folytatjuk: elsőként a LED4 időtúllépés pontos helyét azonosítjuk a `top.v` állapotgépében, majd külön megvizsgáljuk az ADXL362 modult. Nem kezdjük újra az egészet, és nem írjuk át feleslegesen azt, ami már működik.
