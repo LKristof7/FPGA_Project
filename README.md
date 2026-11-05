@@ -1,7 +1,3 @@
-Akkor mára szerintem álljunk meg. Jó hír, hogy az új ADT7420-modullal a hőmérsékletolvasásig már biztosan továbbjut a vezérlés, mert a LED1 folyamatos világítása ezt jelzi. Ez fontos előrelépés.
-
-Összeállítottam egy olyan összefoglalót, amit holnap akár a tanárnak is megmutathatsz.
-
 # Nexys A7 – Hőmérséklet- és gyorsulásmérő szenzorok UART-kapcsolattal
 
 ## 1. A projekt célja
